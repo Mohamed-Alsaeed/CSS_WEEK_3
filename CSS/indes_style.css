@@ -1,0 +1,145 @@
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+  --new-color:  rgb(8, 8, 211);
+  --blue:#0000ff ; 
+  }
+
+  *{
+    text-decoration: none;
+    background-color: var(--Light-gray);
+  }
+
+  *::selection{
+    background-color: blue;
+    color: white;
+  }
+
+  .title {
+    transition-duration: .1s;
+    font-size: 40px;
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto ;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: var(--new-color);
+  }
+  
+  .title:hover{
+    text-shadow: 1px 0px 90px var(--Dark-blue);
+    border-radius: 10px;
+  }
+  
+  .div_1 {
+    position: relative;
+    max-width: 55%;
+    min-width: 300px;
+    height: 1.5px;
+    background-color: var(--Dark-blue);
+    margin: 0 auto 40px auto;
+    opacity: .5;
+    box-shadow: 0px 0px 15px var(--blue);
+  }
+
+.aa{
+  width: 70%;
+  background-color: inherit;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.a1,.a2,.a3,.a4 {
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  width: fit-content;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 1.5em;
+  background-color: var(--blue);
+  color: var(--blue);
+  display: flex;
+  height: fit-content; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.a2,.a3 {
+  width: fit-content;
+  margin-top: 200px;
+  border-radius: 100px;
+}
+
+p {
+  transition-duration: .5s;
+}
+
+.a1{margin-right: -50px;}
+
+.p4:hover{
+  color: var(--White) ;
+  background-color:var(--blue);
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.a4:hover{
+  border-radius: 20px;
+}
+
+.p3:hover{
+  color: var(--White) ;
+  background-color:var(--blue);
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.a3:hover{
+  border-radius: 20px;
+}
+
+.p2:hover{
+  color: var(--White) ;
+  background-color:var(--blue);
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.a2:hover{
+  border-radius: 20px;
+}
+
+.p1:hover{
+  color: var(--White) ;
+  background-color:var(--blue);
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.a1:hover{
+  border-radius: 20px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: fit-content;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--blue);
+}
